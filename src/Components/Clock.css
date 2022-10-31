@@ -1,0 +1,40 @@
+.clock-item {
+    background-color: rgb(71, 87, 56);
+    width: 240px;
+    margin: 15px 5px;
+    height: auto;
+    padding: 14px 18px;
+    border-radius: 36px;
+    transition: all 200ms;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .clock-item:hover {
+    background-color: rgb(185, 94, 94);
+    transform: scale(110%);
+  }
+  
+  .clock-item:active {
+    transform: scale(114%);
+    filter: hue-rotate(-22deg);
+  }
+  
+  .clock-item div {
+    margin: 0.5rem;
+  }
+  
+  .time {
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 4px;
+  }
+  
+  .time-zone {
+    font-size: small;
+    font-weight: 300;
+  }
+  
+  .location {
+    font-size: large;
+    font-weight: 500;
+  }
